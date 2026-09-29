@@ -79,7 +79,7 @@
       (attribute_name) @_lang
       (quoted_attribute_value
         (attribute_value) @_pug)))
-  (text) @content)
+  (raw_text) @content)
   (#eq? @_lang "lang")
   (#eq? @_pug "pug")
   (#set! language "pug"))

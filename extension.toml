@@ -15,5 +15,5 @@ language_ids = { "Vue.js" = "vue" }
 code_action_kinds = ["", "quickfix", "refactor.rewrite"]
 
 [grammars.vue]
-repository = "https://github.com/tree-sitter-grammars/tree-sitter-vue"
-commit = "7e48557b903a9db9c38cea3b7839ef7e1f36c693"
+repository = "file:///Users/dreckr/workspace/tree-sitter-vue"
+commit = "14871395975eae1edd0f8f43007c26b58435fb37"

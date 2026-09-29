@@ -22,7 +22,10 @@
 ((directive_name) @keyword.directive
   (#match? @keyword.directive "^v-"))
 
-(directive_argument) @attribute
+[
+  (directive_value)
+  (dynamic_directive_value)
+] @attribute
 
 (start_tag) @tag
 
@@ -33,6 +36,8 @@
 [
   "="
   ":"
+  "@"
+  "#"
 ] @punctuation.delimiter
 
 [
